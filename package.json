@@ -1,6 +1,6 @@
 {
-  "name": "@bluefinenterprises/serverless-aws-batch",
-  "version": "1.0.9",
+  "name": "bluefinenterprises-serverless-aws-batch",
+  "version": "1.0.0",
   "description": "Serverless Framework Plugin for interacting with AWS Batch",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   "author": "Justin Ramsey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/justinram11/serverless-aws-batch/issues"
+    "url": "https://github.com/bluefinenterprises/serverless-aws-batch/issues"
   },
-  "homepage": "https://github.com/justinram11/serverless-aws-batch#readme",
+  "homepage": "https://github.com/bluefinenterprises/serverless-aws-batch#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
     "cross-spawn": "^6.0.5",
