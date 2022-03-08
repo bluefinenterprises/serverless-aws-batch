@@ -6,7 +6,7 @@ A Serverless v1.x plugin that makes creating and running AWS Batch tasks as easy
 Tested with:
 * Serverless >= v1.43
 * Python 3.7
-* Node.JS 10
+* Node.JS 14
 
 **Disclaimer: This project has not yet been well tested and is not yet recommended for a production system**
 
@@ -16,14 +16,14 @@ First make sure than you have Docker installed and running
 Then add the plugin to your serverless project:
 
 ```
-npm install serverless-aws-batch --save-dev
+npm install bluefinenterprises-serverless-aws-batch --save-dev
 ```
 
 Modify the `serverless.yml` file to include the plugin:
 
 ```yaml
 plugins:
-  - serverless-aws-batch
+  - bluefinenterprises-serverless-aws-batch
 ```
 
 Next we need to define our [AWS Batch Compute Resource](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html)
