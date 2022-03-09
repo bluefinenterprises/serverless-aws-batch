@@ -16,14 +16,14 @@ First make sure than you have Docker installed and running
 Then add the plugin to your serverless project:
 
 ```
-npm install bluefinenterprises-serverless-aws-batch --save-dev
+npm install @bluefinenterprises/serverless-aws-batch --save-dev
 ```
 
 Modify the `serverless.yml` file to include the plugin:
 
 ```yaml
 plugins:
-  - bluefinenterprises-serverless-aws-batch
+  - '@bluefinenterprises/serverless-aws-batch'
 ```
 
 Next we need to define our [AWS Batch Compute Resource](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html)
@@ -155,7 +155,7 @@ provider:
 plugins:
   # TODO Required if a python project
   # - serverless-python-requirements
-  - serverless-aws-batch
+  - '@bluefinenterprises/serverless-aws-batch'
 
 package:
   include:
