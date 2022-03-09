@@ -1,6 +1,6 @@
 {
   "name": "@bluefinenterprises/serverless-aws-batch",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Serverless Framework Plugin for interacting with AWS Batch",
   "main": "index.js",
   "scripts": {
